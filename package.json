@@ -1,0 +1,27 @@
+{
+  "name": "all-life-project",
+  "version": "1.0.0",
+  "description": "a bit of everything",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./build/webpack.dev.conf.js",
+    "pro": "webpack -- config .build/webpack.pro.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/most78/allLifeProject.git"
+  },
+  "author": "Marcos.Ostos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/most78/allLifeProject/issues"
+  },
+  "homepage": "https://github.com/most78/allLifeProject#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^4.4.2",
+    "webpack": "^4.16.5",
+    "webpack-merge": "^4.1.4"
+  }
+}
